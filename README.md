@@ -53,7 +53,7 @@ gcc 程序.c -o 程序 && ./程序
 g++ -x c 程序.c -x none $(pkg-config --libs easyx) -o 程序 && ./程序
 ```
 
-> 本目录提供了 `build.sh`，图形程序也可以直接：`./build.sh 程序.c`
+> **更简单**：每个课程目录和课程根目录都有 Makefile，直接 `make` 即可（`make 文件名` 编译单个，`make clean` 清理）。
 > `-x c` 告诉编译器"按纯 C 编译"（不是 C++），图形库已全局安装好。
 
 ## 给你的三条建议
