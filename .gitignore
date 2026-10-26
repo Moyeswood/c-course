@@ -1,0 +1,9 @@
+# 编译出来的可执行文件不上传 (它们由 .c 重新生成)
+*
+!*/
+!.gitignore
+!Makefile
+!build.sh
+!*.c
+!*.h
+!*.md
